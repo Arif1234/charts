@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { AppMaterialModule } from './material-module/material.module';
+import { AppMaterialModule } from '../modules/material.module';
 import { FlexLayoutModule } from '@angular/flex-layout';
 
 @NgModule({

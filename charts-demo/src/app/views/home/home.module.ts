@@ -2,7 +2,8 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HomeComponent } from './home.component';
 import { HomeRoutingModule } from './home-routing.module';
-import { FlexLayoutModule } from '@angular/flex-layout';
+import { SharedModule } from 'src/app/core/modules/shared.module';
+import { AppCommonModule } from './../../core/common/common.module';
 
 @NgModule({
   declarations: [
@@ -11,7 +12,8 @@ import { FlexLayoutModule } from '@angular/flex-layout';
   imports: [
     CommonModule,
     HomeRoutingModule,
-    FlexLayoutModule
+    AppCommonModule,
+    SharedModule
   ],
   exports: [
     HomeRoutingModule

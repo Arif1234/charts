@@ -6,10 +6,12 @@
       fxLayoutAlign="center"
       fxLayoutGap="10px"
       fxLayoutGap.xs="0">
-    <div class="item item-1" fxFlex>Graph 1</div>
-    <div class="item item-2" fxFlex>Graph 2</div>
+    <div class="item item-1" fxFlex>
+      <app-line-chart></app-line-chart>
+    </div>
+    <div class="item item-2" fxFlex>
+      <app-bar-chart></app-bar-chart>
+    </div>
   </div>
   <router-outlet></router-outlet>
 </section>
-
-
