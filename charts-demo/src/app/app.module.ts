@@ -1,14 +1,14 @@
+import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { NgModule } from '@angular/core';
 
 // User Defined Modules
-import { AppCommonModule } from './common/common.module';
+import { AppCommonModule } from './core/common/common.module';
 import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './global/header/header.component';
-import { FooterComponent } from './global/footer/footer.component';
+import { HeaderComponent } from './core/global/header/header.component';
+import { FooterComponent } from './core/global/footer/footer.component';
 
 @NgModule({
   declarations: [
